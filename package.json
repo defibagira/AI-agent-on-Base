@@ -1,0 +1,19 @@
+{
+  "name": "ai-agent-on-base",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "agent": "node src/agent.js",
+    "check": "node --check src/agent.js",
+    "sign-identity": "node --loader tsx src/chain/identity.ts",
+    "wallet-check": "node --loader tsx src/chain/wallet.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
