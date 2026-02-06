@@ -26,11 +26,9 @@ export async function checkWallet() {
   };
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
-  checkWallet()
-    .then((result) => console.log(JSON.stringify(result, null, 2)))
-    .catch((error) => {
-      console.error(error);
-      process.exit(1);
-    });
-}
+checkWallet()
+  .then((result) => console.log(JSON.stringify(result, null, 2)))
+  .catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });

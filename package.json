@@ -6,8 +6,8 @@
   "scripts": {
     "agent": "node src/agent.js",
     "check": "node --check src/agent.js",
-    "sign-identity": "node --loader tsx src/chain/identity.ts",
-    "wallet-check": "node --loader tsx src/chain/wallet.ts"
+    "sign-identity": "node --import tsx src/chain/identity.ts",
+    "wallet-check": "node --import tsx src/chain/wallet.ts"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
