@@ -2,6 +2,25 @@
 
 This repository follows a phased build plan for an autonomous onchain AI agent on Base.
 
+## Overview
+
+BASE_SENTINEL is an autonomous AI agent that operates on the Base blockchain. It can:
+
+- **Reason Independently**: Makes decisions based on predefined goals and safety rules
+- **Deploy Smart Contracts**: Autonomously deploys and interacts with onchain contracts
+- **Execute Transactions**: Signs and sends transactions without human intervention (within safety bounds)
+- **Prove Its Actions**: All transactions are publicly verifiable on Base mainnet
+
+This is a proof-of-concept for autonomous AI agents that can own wallets, deploy code, and operate independently on public blockchains while maintaining strict safety guardrails.
+
+### Use Cases
+
+- Autonomous trading agents
+- Self-deploying application contracts
+- Decentralized autonomous organizations (DAOs)
+- AI-powered smart contract management
+- Research on autonomous onchain systems
+
 ## Phase 1 (already defined)
 
 - Identity, purpose, and hard safety rules are defined in `src/agent.js`.
