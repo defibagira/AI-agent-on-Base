@@ -69,3 +69,33 @@ Use `.env.example` to create local `.env`:
 Optional wallet read check:
 
 - `npm run wallet-check`
+
+## Quick Start
+
+Get the agent running in 5 minutes:
+
+1. Clone: `git clone https://github.com/defibagira/AI-agent-on-Base.git`
+2. Install: `npm install`
+3. Setup: `cp .env.example .env`
+4. Test: `npm run wallet-check`
+5. Deploy: `node --import tsx src/chain/deployCounter.ts`
+
+## Future Roadmap
+
+- Phase 4: ERC-20 token deployment
+- Phase 5: X/Farcaster integration
+- Phase 6: Autonomous trading
+- Phase 7: DAO governance contracts
+- Phase 8: Multi-chain deployment
+
+## Security Considerations
+
+- Private keys loaded from .env only (never hardcoded)
+- Phase 1-2 read-only, Phase 3 controlled write access
+- Hard safety rules in src/agent.js
+- All deployments verifiable on BaseScan
+- No infinite autonomous loops
+
+## License
+
+MIT License - Open source for research, educational, and commercial use.
