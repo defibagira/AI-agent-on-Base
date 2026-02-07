@@ -15,6 +15,21 @@ This repository follows a phased build plan for an autonomous onchain AI agent o
 
 > Note: These commands are developer utilities for setup validation and do not introduce autonomous loops.
 
+## Phase 3 - Autonomous Onchain Deployment
+
+Successfully deployed Counter contract to Base mainnet!
+
+**Deployment Details:**
+- Network: Base Mainnet
+- Contract Address: 0x9a24979f61a050f44570a3a8e535d8bcdb1c2d523
+- Deploy Transaction: 0x132b400a580a8a68b0a3b7871ea09c73a18bf9fe51437b04b786c787007de127
+- Agent Wallet: 0xCbEFD526D42083034013A9D08D7cB009bE83bC81
+
+**Verify on BaseScan:**
+https://basescan.org/address/0x9a24979f61a050f44570a3a8e535d8bcdb1c2d523
+
+The agent successfully deployed a Counter contract that is now live on Base mainnet and ready for autonomous operations.
+
 ## Environment
 
 Use `.env.example` to create local `.env`:
