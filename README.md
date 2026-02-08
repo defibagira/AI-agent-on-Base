@@ -99,3 +99,15 @@ Get the agent running in 5 minutes:
 ## License
 
 MIT License - Open source for research, educational, and commercial use.
+
+## Proof of Autonomous Onchain Action (Base Mainnet)
+
+This agent autonomously deployed and interacted with a smart contract on Base mainnet.
+
+- Counter Deploy Tx:
+  https://basescan.org/tx/0x132b400a580a8a68b0a3b7871ea09c73a18bf9fe51437b04b786c787007de127
+
+- increment() Tx:
+  https://basescan.org/tx/0x648bd8d1143d3a7e520cfb68e11ef8c70d9a4c43279126cca2d65f478f17277b
+
+These actions were executed without human-in-the-loop approval.
